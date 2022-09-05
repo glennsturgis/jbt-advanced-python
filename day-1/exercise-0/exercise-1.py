@@ -103,6 +103,10 @@ def main():
     print(f"6. The average carats per cut {average_key_by_group('cut', 'carat', diamonds)}")
     print(f"7. The average price per color {average_key_by_group('color', 'price', diamonds)}")
 
+    with open(r'C:\Users\jbt\Desktop\jbt-advanced-python\day-1\exercise-0\data\price_and_carat.csv', 'a') as f:
+        f.write('price,carat\n')
+        f.writelines([f'{diamond.price},{diamond.carat}\n' for diamond in diamonds])
+
 
 if __name__ == '__main__':
     main()

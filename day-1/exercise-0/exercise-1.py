@@ -73,6 +73,9 @@ class Diamonds:
     def __iter__(self):
         return DiamondsIter(self)
 
+    def __str__(self):
+        return self.__dict__
+
     def highest_by_key(self, key):
         return max([getattr(diamond, key) for diamond in self.diamonds])
 

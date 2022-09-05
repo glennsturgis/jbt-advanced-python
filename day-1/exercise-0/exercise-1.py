@@ -7,8 +7,31 @@ DATA_FILE = r'C:\Users\jbt\Desktop\jbt-advanced-python\day-1\exercise-0\data\dia
 
 class Diamond:
     """Represents a diamond class"""
-    "", "carat", "cut", "color", "clarity", "depth", "table", "price", "x", "y", "z"
 
+    # TODO: initialize arguments dynamically
+    """
+    ===
+    Option 1
+    ===
+    class DiamondMeta(type):
+    def __new__(cls, name, bases, dct):
+        for name, value in defaults.items():
+            dct[name] = some_complex_init_function(value, ...)
+        return type.__new__(cls, name, bases, dct)
+
+    class Diamond(object):
+        __metaclass__ = DiamondMeta
+    
+    ===
+    Option 2
+    ===
+    use settatr when iterating over the kwargs
+    
+    ===
+    Option 3
+    ===
+    set __dict__ to be kwargs
+    """
     def __init__(self, id, carat, cut, color, clarity, depth, table, price, x, y, z):
         self.id = id
         self.carat = float(carat)

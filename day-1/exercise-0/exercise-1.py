@@ -73,7 +73,7 @@ def main():
     print(
         f'3. The number of diamonds with cut "Ideal" is : {len([diamonds for diamond in diamonds if "Ideal" in diamond.cut])}')
     colors = set([diamond.color for diamond in diamonds])
-    print(f'4. There are {len(colors)} colors, which are: {",".join(colors)}')
+    print(f'4. There are {len(colors)} colors, which are: {",".join(sorted(colors))}')
     print(
         f'5. The median carat for "Premium" diamonds is: {statistics.median([diamond.carat for diamond in diamonds if "Premium".lower() in diamond.cut.lower()])}')
     print(f"6. The average carats per cut {average_key_by_group('cut', 'carat', diamonds)}")

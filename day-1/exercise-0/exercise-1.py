@@ -32,6 +32,7 @@ class Diamond:
     ===
     set __dict__ to be kwargs
     """
+
     def __init__(self, id, carat, cut, color, clarity, depth, table, price, x, y, z):
         self.id = id
         self.carat = float(carat)
@@ -75,9 +76,6 @@ class Diamonds:
 
     def __str__(self):
         return self.__dict__
-
-    def highest_by_key(self, key):
-        return max([getattr(diamond, key) for diamond in self.diamonds])
 
 
 def average_key_by_group(group, key, diamonds):

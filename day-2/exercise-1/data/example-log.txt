@@ -1,0 +1,24 @@
+DEBUG this is a test 0
+INFO hello 1
+ERROR broken 2
+DEBUG this is a test 1
+INFO hello 1
+ERROR broken 2
+DEBUG this is a test 2
+INFO hello 1
+ERROR broken 2
+DEBUG this is a test 3
+INFO hello 1
+ERROR broken 2
+DEBUG this is a test 4
+INFO hello 1
+ERROR broken 2
+DEBUG this is a test 5
+INFO hello 1
+ERROR broken 2
+DEBUG this is a test 6
+INFO hello 1
+ERROR broken 2
+DEBUG this is a test 7
+INFO hello 1
+ERROR broken 2

@@ -13,3 +13,4 @@
 - Decorators
 - Lambdas
 - Docstrings and Annotations
+- OOP

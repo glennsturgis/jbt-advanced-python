@@ -1,5 +1,8 @@
 # Python Advanced Course by JB
 
+Extra Resources:  
+https://book.pythontips.com/en/latest/#
+
 ## Day 1
 - Python Refresher
 

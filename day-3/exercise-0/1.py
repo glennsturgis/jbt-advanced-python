@@ -77,7 +77,7 @@ if __name__ == '__main__':
     print(f'random numbers: {next(circ)}')
 
     ll = gen_log_level(2, 3)
-    next(ll)  # can call next manually to prime instead of sending None
+    next(ll)  # can call next manually to prime instead of sending None... ll.next() also works
     for l in ll:
         print(l.strip())
         ll.send((4, 1))

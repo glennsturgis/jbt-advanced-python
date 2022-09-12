@@ -1,4 +1,5 @@
 from enum import Enum
+from itertools import count
 import pathlib
 
 
@@ -13,7 +14,8 @@ class LogReader:
     def __init__(self, num_of_lines: int, severity: int):
         self._num_of_lines = num_of_lines
         self._severity = severity
-        self._file_path = r'C:\Users\jbt\PycharmProjects\jbt-advanced-python\day-2\exercise-1\data\example-log.txt'
+
+        self._file_path = r'C:\Users\jbt\Desktop\jbt-advanced-python\day-2\exercise-1\data\example-log.txt'
         self._file = self._open_file(self._file_path)
 
     @property
@@ -68,4 +70,4 @@ if __name__ == '__main__':
         print(next(lines, 'Done iterating'))
         print(next(lines, 'Done iterating'))
         print(next(lines,'Done iterating'))
-        # print(*lines, end='\n', sep='')
+        # print(*lines, end='\n', sep='\n')

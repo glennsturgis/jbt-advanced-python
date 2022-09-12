@@ -1,7 +1,8 @@
 # Python Advanced Course by JB
 
 Extra Resources:  
-https://book.pythontips.com/en/latest/#
+https://book.pythontips.com/en/latest/#  
+http://www.dabeaz.com/coroutines/Coroutines.pdf
 
 ## Day 1
 - Python Refresher

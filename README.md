@@ -2,10 +2,9 @@
 
 Extra Resources:  
 https://book.pythontips.com/en/latest/#  
-http://www.dabeaz.com/coroutines/Coroutines.pdf
-https://stackoverflow.com/questions/19302530/whats-the-purpose-of-send-function-on-python-generators
-yield from explanation - https://stackoverflow.com/questions/9708902/in-practice-what-are-the-main-uses-for-the-yield-from-syntax-in-python-3-3
-
+http://www.dabeaz.com/coroutines/Coroutines.pdf  
+https://stackoverflow.com/questions/19302530/whats-the-purpose-of-send-function-on-python-generators  
+yield from explanation - https://stackoverflow.com/questions/9708902/in-practice-what-are-the-main-uses-for-the-yield-from-syntax-in-python-3-3  
 
 ## Day 1
 - Python Refresher

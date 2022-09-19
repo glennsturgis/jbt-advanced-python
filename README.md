@@ -2,9 +2,17 @@
 
 Extra Resources:  
 https://book.pythontips.com/en/latest/#  
-http://www.dabeaz.com/coroutines/Coroutines.pdf  
-https://stackoverflow.com/questions/19302530/whats-the-purpose-of-send-function-on-python-generators  
+Generators and Coroutines  
+- http://www.dabeaz.com/coroutines/Coroutines.pdf  
+- https://stackoverflow.com/questions/19302530/whats-the-purpose-of-send-function-on-python-generators  
 yield from explanation - https://stackoverflow.com/questions/9708902/in-practice-what-are-the-main-uses-for-the-yield-from-syntax-in-python-3-3  
+
+threading  
+- https://superfastpython.com/tutorials/  
+- https://superfastpython.com/learning-paths/
+
+async in pytho  
+- https://www.youtube.com/watch?v=Y4Gt3Xjd7G8&t=2s
 
 ## Day 1
 - Python Refresher
@@ -65,3 +73,14 @@ yield from explanation - https://stackoverflow.com/questions/9708902/in-practice
     - Serve the purpose of adhering to SOLID patterns where each pattern implements a specific purpose.
     - https://python-patterns.guide/
     - https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns
+
+## Day 5
+- Async in Python
+- threading
+    - consumer and producer pattern with Queue
+    - `ThreadPoolExecutor` - map, submit, as_completed
+- multiprocessing
+    - multiprocess pools
+- asyncio
+    - `gather`, `as_completed`, ...
+- Flask

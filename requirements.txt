@@ -1,1 +1,5 @@
 pytest
+requests
+pyquery
+beautifulsoup4
+aiohttp
